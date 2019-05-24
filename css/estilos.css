@@ -1,0 +1,258 @@
+body{
+    margin:0;
+    background-color: #2488c8;
+    font-family: 'Oswald', sans-serif;
+}
+.superior{
+    justify-content: center;
+    max-width: 1920px;
+    margin: 0 auto;
+    display: flex;
+    height: 110px;
+    background: url(../header-comic.png);
+}
+.iconos{
+    border-right: 1px solid blue;
+    margin-right: 40px;
+    display: flex;
+    justify-content: center;
+}
+.iconos2{
+    display: flex;
+    margin-right: 100px;
+    margin-left: -32px;
+}
+.icon{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    flex: 0 0 15%;
+    border-left: 1px solid blue;
+    border-right: 1px solid blue;
+    font-size: 14px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: white;
+}
+.sup-text{
+    border-right: 2px solid blue;
+    padding-top: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    text-align: center;
+    font-size: 20px;
+    color: #0072c2;
+    flex: 0 0 70%;
+}
+.iconos img{
+    width: 65px;
+}
+.blanco{
+    flex: 0 0 24%;
+    border-right:2px solid blue;
+    border-left:2px solid blue;
+    background-color: white;
+}
+.member{
+    color: black;
+    margin-top: -16px;
+    font-size: 48px;
+}
+.blanco img{
+    display: none;
+}
+.wonder{
+    padding-bottom: 25px;
+}
+.globo{
+    position: relative;
+    left: 10px;
+    top:1px;
+}
+.superior2{
+    max-width: 1920px;
+    margin:0 auto;
+}
+.superior2 ul{
+    margin:0;
+    justify-content: center;
+    display: flex;
+    background-color: #0073bd;
+    list-style: none;
+}
+.superior2 li{
+    border-left: 1px solid white;
+    font-size: 12px;
+    color: white;
+    padding: 13px 25px;
+}
+input{
+    border-radius: 0.3em;
+    height: 22px;
+    margin: 10px 110px;
+}
+.portada{
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    height: 478px;
+    background: url(../fondocomic.jpg);
+}
+.barra{
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    background-color: #189ef5;
+    height: 55px;
+}
+.barra img{
+    width: 130px;
+}
+.der{
+    color: yellow;
+    font-size: 42px;
+    padding-left: 300px;
+}
+.izq{
+    color: #405591;
+    font-size: 42px;
+    padding-right: 450px;
+}
+.wrapper{
+    height: 677px;
+    background: url(../footer-bg.jpg);
+}
+.nav1{
+    grid-space: nav1;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    border-left:1px solid;
+    border-right: 1px solid;
+    margin-top:20px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+.nav2{
+    grid-space: nav2;
+    grid-column: 1/2;
+    grid-row: 2/4;
+    padding-left: 30px;
+    border: 1px solid;
+}
+.nav3{
+    grid-space: nav3;
+    grid-column: 1/2;
+    grid-row: 4/6;
+    padding-left: 30px;
+    border-left:1px solid;
+    border-right: 1px solid;
+}
+.nav4{
+    grid-space: nav4;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top:20px;
+    padding-left: 30px;
+}
+.nav5{
+    grid-space: nav5;
+    grid-column: 2/3;
+    grid-row: 2/5;
+    padding-left: 30px;
+    border:1px solid;
+}
+.nav6{
+    grid-space: nav6;
+    grid-column: 2/3;
+    grid-row: 5/6;
+    padding-left: 30px;
+    border-right: 1px solid;
+}
+.nav7{
+    grid-space: nav7;
+    grid-column: 3/4;
+    grid-row: 1/3;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top:20px;
+    border-left:1px solid;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+}
+.nav8{
+    grid-space: nav8;
+    grid-column: 3/4;
+    grid-row: 3/6;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "comicc parr"
+    "appstore gplay";
+    grid-gap:10px;
+    padding-left: 30px;
+    padding-right: 40px;
+    padding-top: 20px;
+    border-right:1px solid;
+}
+.menu-inf{
+    color: white;
+    margin: 0 auto;
+    display: grid;
+    max-width: 1170px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 220px 70px 100px 40px 199px 245px 284px 357px;
+    height: 100px;
+    /*grid-template-areas:
+    "nav1 nav4 nav7"
+    "nav2 nav5 ..."
+    "nav3 nav6 nav8";*/
+}
+.menu-inf p{
+    line-height: 1;
+    font-size: 18px;
+}
+.menu-inf li{
+    font-size:14px;
+    opacity: 0.7;
+}
+.nav7 h2{
+    font-size: 32px;
+    font-weight: normal;
+}
+.nav7 p{
+    line-height: 1.4;
+    font-size: 14px;
+}
+.nav8 p{
+    font-size: 28px;
+}
+.play1{
+    grid-area: appstore;
+    width: 150px;
+    margin-top: -80px;
+}
+.play2{
+    grid-area: gplay;
+    width: 150px;
+    margin-top: -80px;
+}
+.par{
+    grid-area: parr;
+    margin-left:-45px;
+}
+.comicc{
+    grid-area: comicc;
+}
+footer{
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    justify-content: center;
+    background-color: #189ef5;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
